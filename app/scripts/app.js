@@ -1,3 +1,4 @@
+define(['angular', 'angular-animate'], function (angular, ngAnimate) {
 'use strict';
 
 /**
@@ -31,3 +32,4 @@ angular
         redirectTo: '/'
       });
   });
+});

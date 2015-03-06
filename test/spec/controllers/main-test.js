@@ -1,4 +1,4 @@
-define(['angular'], function (angular) {
+define(['angular', 'angular-mocks', 'app'], function (angular, mocks, app) {
 
   'use strict';
 

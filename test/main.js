@@ -17,7 +17,22 @@ require.config({
   baseUrl: '/base',
 
   paths: {
-    'angular': 'bower_components/angular/angular'
+    'app': 'app/scripts/app',
+    'angular-animate': 'bower_components/angular-animate/angular-animate',
+    'angular': 'bower_components/angular/angular',
+    'angular-mocks': 'bower_components/angular-mocks/angular-mocks'
+  },
+
+  shim: {
+    'angular': {
+      exports: 'angular'
+    },
+    'angular-animate': {
+      deps: ['angular']
+    },
+    'angular-mocks': {
+      deps: ['angular']
+    }
   },
 
   // dynamically load all test files

@@ -18,7 +18,9 @@ module.exports = function(config) {
       'test/main.js',
       {pattern: 'app/scripts/**/*.js', included: false},
       {pattern: 'test/spec/**/*.js', included: false},
-      {pattern: 'bower_components/angular/angular.js', included: false}
+      {pattern: 'bower_components/angular-animate/angular-animate.js', included: false},
+      {pattern: 'bower_components/angular/angular.js', included: false},
+      {pattern: 'bower_components/angular-mocks/angular-mocks.js', included: false}
     ],
 
 
