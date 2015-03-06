@@ -2,12 +2,18 @@ define([
   'angular', 
   'angular-animate', 
   'angular-cookies',
-  'angular-resource'
+  'angular-resource',
+  'angular-route',
+  'angular-sanitize',
+  'angular-touch'
 ], function (
   angular, 
   ngAnimate, 
   ngCookies,
-  ngResource
+  ngResource,
+  ngRoute,
+  ngSanitize,
+  ngTouch
 ) {
 
 'use strict';
