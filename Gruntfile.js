@@ -386,9 +386,16 @@ module.exports = function (grunt) {
         configFile: 'test/karma.conf.js',
         singleRun: true
       }
+    },
+    
+    bowerRequirejs: {
+      target: {
+        rjsConfig: 'app/main.js'
+      }
     }
   });
 
+  grunt.loadNpmTasks('grunt-bower-requirejs');
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
@@ -412,6 +419,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('test', [
     'clean:server',
+    'bowerRequirejs',
     'wiredep',
     'concurrent:test',
     'autoprefixer',
