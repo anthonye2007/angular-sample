@@ -1,4 +1,15 @@
-define(['angular', 'angular-animate', 'angular-cookies'], function (angular, ngAnimate, ngCookies) {
+define([
+  'angular', 
+  'angular-animate', 
+  'angular-cookies',
+  'angular-resource'
+], function (
+  angular, 
+  ngAnimate, 
+  ngCookies,
+  ngResource
+) {
+
 'use strict';
 
 /**

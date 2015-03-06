@@ -20,6 +20,7 @@ require.config({
     'app': 'app/scripts/app',
     'angular-animate': 'bower_components/angular-animate/angular-animate',
     'angular-cookies': 'bower_components/angular-cookies/angular-cookies',
+    'angular-resource': 'bower_components/angular-resource/angular-resource',
     'angular': 'bower_components/angular/angular',
     'angular-mocks': 'bower_components/angular-mocks/angular-mocks'
   },
@@ -28,6 +29,7 @@ require.config({
     'angular': { exports: 'angular' },
     'angular-animate': { deps: ['angular'] },
     'angular-mocks': { deps: ['angular'] },
+    'angular-resource': { deps: ['angular'] },
     'angular-cookies': { deps: ['angular'] }
   },
 
