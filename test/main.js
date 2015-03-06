@@ -25,18 +25,10 @@ require.config({
   },
 
   shim: {
-    'angular': {
-      exports: 'angular'
-    },
-    'angular-animate': {
-      deps: ['angular']
-    },
-    'angular-mocks': {
-      deps: ['angular']
-    },
-    'angular-cookies': {
-      deps: ['angular']
-    }
+    'angular': { exports: 'angular' },
+    'angular-animate': { deps: ['angular'] },
+    'angular-mocks': { deps: ['angular'] },
+    'angular-cookies': { deps: ['angular'] }
   },
 
   // dynamically load all test files
