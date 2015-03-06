@@ -19,6 +19,7 @@ require.config({
   paths: {
     'app': 'app/scripts/app',
     'angular-animate': 'bower_components/angular-animate/angular-animate',
+    'angular-cookies': 'bower_components/angular-cookies/angular-cookies',
     'angular': 'bower_components/angular/angular',
     'angular-mocks': 'bower_components/angular-mocks/angular-mocks'
   },
@@ -31,6 +32,9 @@ require.config({
       deps: ['angular']
     },
     'angular-mocks': {
+      deps: ['angular']
+    },
+    'angular-cookies': {
       deps: ['angular']
     }
   },
