@@ -17,21 +17,21 @@ require.config({
   baseUrl: '/base',
 
   paths: {
-    'App': 'app/scripts/app',
-    'angular-animate': 'bower_components/angular-animate/angular-animate',
-    'angular-cookies': 'bower_components/angular-cookies/angular-cookies',
-    'angular-resource': 'bower_components/angular-resource/angular-resource',
-    'angular-route': 'bower_components/angular-route/angular-route',
-    'angular-sanitize': 'bower_components/angular-sanitize/angular-sanitize',
-    'angular-touch': 'bower_components/angular-touch/angular-touch',
-    'angular': 'bower_components/angular/angular',
-    'angular-mocks': 'bower_components/angular-mocks/angular-mocks'
+    'App': '/base/app/scripts/app',
+    'angularMocks': '/base/bower_components/angular-mocks/angular-mocks',
+    'angular-animate': '/base/bower_components/angular-animate/angular-animate',
+    'angular-cookies': '/base/bower_components/angular-cookies/angular-cookies',
+    'angular-resource': '/base/bower_components/angular-resource/angular-resource',
+    'angular-route': '/base/bower_components/angular-route/angular-route',
+    'angular-sanitize': '/base/bower_components/angular-sanitize/angular-sanitize',
+    'angular-touch': '/base/bower_components/angular-touch/angular-touch',
+    'angular': '/base/bower_components/angular/angular'
   },
 
   shim: {
     'angular': { exports: 'angular' },
+    'angularMocks': { deps: ['angular'] },
     'angular-animate': { deps: ['angular'] },
-    'angular-mocks': { deps: ['angular'] },
     'angular-resource': { deps: ['angular'] },
     'angular-route': { deps: ['angular'] },
     'angular-sanitize': { deps: ['angular'] },
