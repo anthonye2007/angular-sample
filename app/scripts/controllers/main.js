@@ -1,3 +1,21 @@
+define([
+  'angular', 
+  'angular-animate', 
+  'angular-cookies',
+  'angular-resource',
+  'angular-route',
+  'angular-sanitize',
+  'angular-touch'
+], function (
+  angular, 
+  ngAnimate, 
+  ngCookies,
+  ngResource,
+  ngRoute,
+  ngSanitize,
+  ngTouch
+) {
+
 'use strict';
 
 /**
@@ -15,3 +33,5 @@ angular.module('angularSampleApp')
       'Karma'
     ];
   });
+
+});
