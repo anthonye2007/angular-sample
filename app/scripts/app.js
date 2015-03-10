@@ -26,8 +26,9 @@ define([
  *
  * Main module of the application.
  */
-angular
+return angular
   .module('angularSampleApp', [
+    'ngMock',
     'ngAnimate',
     'ngCookies',
     'ngResource',

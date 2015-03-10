@@ -17,7 +17,7 @@ require.config({
   baseUrl: '/base',
 
   paths: {
-    'App': '/base/app/scripts/app',
+    'angularSampleApp': '/base/app/scripts/app',
     'angularMocks': '/base/bower_components/angular-mocks/angular-mocks',
     'angular-animate': '/base/bower_components/angular-animate/angular-animate',
     'angular-cookies': '/base/bower_components/angular-cookies/angular-cookies',

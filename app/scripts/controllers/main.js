@@ -26,12 +26,12 @@ define([
  * Controller of the angularSampleApp
  */
 angular.module('angularSampleApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', [function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-  });
+  }]);
 
 });
